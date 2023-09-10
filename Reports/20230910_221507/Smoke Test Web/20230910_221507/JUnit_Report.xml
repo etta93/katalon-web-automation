@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test Web" time="148.095" tests="3" failures="1" errors="0">
+   <testsuite name="Smoke Test Web" tests="3" failures="1" errors="0" time="148.095" skipped="0" timestamp="2023-09-10 22:15:11" hostname="margaretta - localhost" id="Test Suites/Smoke Test Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507"/>
+         <property name="logFiles" value="/Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/execution0.log"/>
+         <property name="attachments" value="/Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694358959095.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694358959442.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694358984482.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694358984770.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694359011658.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694359011986.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694359037409.png, /Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694359037748.png"/>
+         <property name="hostName" value="margaretta - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="fa0f62a56f229bf4441039744da45cf3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/User can successfully login" time="18.493" classname="Test Cases/User can successfully login" status="PASSED">
+         <system-out><![CDATA[2023-09-10 22:15:12 - [TEST_CASE][PASSED] - Test Cases/User can successfully login: Test Cases/User can successfully login
+
+2023-09-10 22:15:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-10 22:15:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-10 22:15:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-10 22:15:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-10 22:15:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+2023-09-10 22:15:24 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+2023-09-10 22:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Customer Login")): Object: 'Object Repository/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-09-10 22:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-09-10 22:15:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b"), "3", true): All options with value '3' are selected in object 'Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-09-10 22:15:28 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-09-10 22:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Login")): Object: 'Object Repository/Page_XYZ Bank/button_Login' is clicked on
+
+2023-09-10 22:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Login' is clicked on
+
+2023-09-10 22:15:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/strong_1007"), "1007"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_1007' are matched.
+
+2023-09-10 22:15:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_1007' are matched.
+
+2023-09-10 22:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/span_Ron Weasly")): Object: 'Object Repository/Page_XYZ Bank/span_Ron Weasly' is clicked on
+
+2023-09-10 22:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/span_Ron Weasly' is clicked on
+
+2023-09-10 22:15:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/span_Ron Weasly"), "Ron Weasly"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/span_Ron Weasly' are matched.
+
+2023-09-10 22:15:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/span_Ron Weasly' are matched.
+
+2023-09-10 22:15:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-10 22:15:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User can successfully deposit and withdraw money" time="25.65" classname="Test Cases/User can successfully deposit and withdraw money" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User can successfully deposit and withdraw money FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-09-10 22:16:52 - [TEST_CASE][FAILED] - Test Cases/User can successfully deposit and withdraw money: Test Cases/User can successfully deposit and withdraw money FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-09-10 22:16:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-10 22:16:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-10 22:16:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-10 22:16:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-10 22:16:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-10 22:16:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+2023-09-10 22:16:59 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+2023-09-10 22:16:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/strong_XYZ Bank"), "XYZ Bank"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_XYZ Bank' are matched.
+
+2023-09-10 22:17:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_XYZ Bank' are matched.
+
+2023-09-10 22:17:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Customer Login")): Object: 'Object Repository/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-09-10 22:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-09-10 22:17:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b"), "3", true): All options with value '3' are selected in object 'Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-09-10 22:17:02 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-09-10 22:17:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/button_Login"), 0): Object 'Object Repository/Page_XYZ Bank/button_Login' is present
+
+2023-09-10 22:17:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/button_Login' is present
+
+2023-09-10 22:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Login")): Object: 'Object Repository/Page_XYZ Bank/button_Login' is clicked on
+
+2023-09-10 22:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Login' is clicked on
+
+2023-09-10 22:17:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/strong_0"), "0"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_0' are matched.
+
+2023-09-10 22:17:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_0' are matched.
+
+2023-09-10 22:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Deposit")): Object: 'Object Repository/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-09-10 22:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-09-10 22:17:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/label_Amount to be Deposited"), 0): Object 'Object Repository/Page_XYZ Bank/label_Amount to be Deposited' is present
+
+2023-09-10 22:17:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/label_Amount to be Deposited' is present
+
+2023-09-10 22:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), "25000"): Text '25000' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:06 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Deposit_1")): Object: 'Object Repository/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-09-10 22:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-09-10 22:17:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/span_Deposit Successful"), 0): Object 'Object Repository/Page_XYZ Bank/span_Deposit Successful' is present
+
+2023-09-10 22:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/span_Deposit Successful' is present
+
+2023-09-10 22:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Transactions")): Object: 'Object Repository/Page_XYZ Bank/button_Transactions' is clicked on
+
+2023-09-10 22:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Transactions' is clicked on
+
+2023-09-10 22:17:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/td_25000"), "25000"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_25000' are matched.
+
+2023-09-10 22:17:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_25000' are matched.
+
+2023-09-10 22:17:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/td_Credit")): Object: 'Object Repository/Page_XYZ Bank/td_Credit' is clicked on
+
+2023-09-10 22:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/td_Credit' is clicked on
+
+2023-09-10 22:17:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/td_Credit"), "Credit"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_Credit' are matched.
+
+2023-09-10 22:17:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_Credit' are matched.
+
+2023-09-10 22:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Back")): Object: 'Object Repository/Page_XYZ Bank/button_Back' is clicked on
+
+2023-09-10 22:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Back' is clicked on
+
+2023-09-10 22:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Withdrawl")): Object: 'Object Repository/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-09-10 22:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-09-10 22:17:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), "20000"): Text '20000' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:13 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Withdraw")): Object: 'Object Repository/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-09-10 22:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-09-10 22:17:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/span_Transaction successful"), 0): Object 'Object Repository/Page_XYZ Bank/span_Transaction successful' is present
+
+2023-09-10 22:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/span_Transaction successful' is present
+
+2023-09-10 22:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Transactions")): Object: 'Object Repository/Page_XYZ Bank/button_Transactions' is clicked on
+
+2023-09-10 22:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Transactions' is clicked on
+
+2023-09-10 22:17:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/td_20000"), "20000"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_20000' are matched.
+
+2023-09-10 22:17:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_20000' are matched.
+
+2023-09-10 22:17:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/td_Debit"), "Debit"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_Debit' are matched.
+
+2023-09-10 22:17:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/td_Debit' are matched.
+
+2023-09-10 22:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Back")): Object: 'Object Repository/Page_XYZ Bank/button_Back' is clicked on
+
+2023-09-10 22:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Back' is clicked on
+
+2023-09-10 22:17:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly"), "Welcome Ron Weasly !!"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly' are matched.
+
+2023-09-10 22:17:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly' are matched.
+
+2023-09-10 22:17:17 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863"), "Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar"): Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-09-10 22:17:17 - [MESSAGE][FAILED] - Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+)
+[[ATTACHMENT|/Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694359037409.png]]
+
+2023-09-10 22:17:18 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|/Users/margaretta/Katalon Studio/Web Banking Testing/Reports/20230910_221507/Smoke Test Web/20230910_221507/1694359037748.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-10 22:16:52 - [TEST_CASE][FAILED] - Test Cases/User can successfully deposit and withdraw money: Test Cases/User can successfully deposit and withdraw money FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User failed to withdraw due to insufficient deposit" time="21.756" classname="Test Cases/User failed to withdraw due to insufficient deposit" status="PASSED">
+         <system-out><![CDATA[2023-09-10 22:17:18 - [TEST_CASE][PASSED] - Test Cases/User failed to withdraw due to insufficient deposit: Test Cases/User failed to withdraw due to insufficient deposit
+
+2023-09-10 22:17:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-10 22:17:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-10 22:17:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-10 22:17:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-10 22:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-10 22:17:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+2023-09-10 22:17:26 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+2023-09-10 22:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Customer Login")): Object: 'Object Repository/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-09-10 22:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-09-10 22:17:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b"), "3", true): All options with value '3' are selected in object 'Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-09-10 22:17:29 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-09-10 22:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Login")): Object: 'Object Repository/Page_XYZ Bank/button_Login' is clicked on
+
+2023-09-10 22:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Login' is clicked on
+
+2023-09-10 22:17:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly"), 0): Object 'Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly' is present
+
+2023-09-10 22:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly' is present
+
+2023-09-10 22:17:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/span_Ron Weasly"), 0): Object 'Object Repository/Page_XYZ Bank/span_Ron Weasly' is present
+
+2023-09-10 22:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/span_Ron Weasly' is present
+
+2023-09-10 22:17:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/strong_0"), "0"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_0' are matched.
+
+2023-09-10 22:17:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/strong_0' are matched.
+
+2023-09-10 22:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Deposit")): Object: 'Object Repository/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-09-10 22:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-09-10 22:17:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), "100"): Text '100' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:33 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Deposit_1")): Object: 'Object Repository/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-09-10 22:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-09-10 22:17:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/span_Deposit Successful"), "Deposit Successful"): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-09-10 22:17:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-09-10 22:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Withdrawl")): Object: 'Object Repository/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-09-10 22:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-09-10 22:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), "50000"): Text '50000' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:36 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-09-10 22:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Withdraw")): Object: 'Object Repository/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-09-10 22:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-09-10 22:17:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_XYZ Bank/span_Transaction Failed. You can not withdr_4b9636"), "Transaction Failed. You can not withdraw amount more than the balance."): Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/span_Transaction Failed. You can not withdr_4b9636' are matched.
+
+2023-09-10 22:17:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_XYZ Bank/span_Transaction Failed. You can not withdr_4b9636' are matched.
+
+2023-09-10 22:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Transactions")): Object: 'Object Repository/Page_XYZ Bank/button_Transactions' is clicked on
+
+2023-09-10 22:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Transactions' is clicked on
+
+2023-09-10 22:17:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_XYZ Bank/button_Reset"), 0): Object 'Object Repository/Page_XYZ Bank/button_Reset' is present
+
+2023-09-10 22:17:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-10 22:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_XYZ Bank/button_Reset' is present
+
+2023-09-10 22:17:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Reset")): Object: 'Object Repository/Page_XYZ Bank/button_Reset' is clicked on
+
+2023-09-10 22:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Reset' is clicked on
+
+2023-09-10 22:17:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-10 22:17:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-10 22:15:11 - [TEST_SUITE][FAILED] - Smoke Test Web: Test Cases/User can successfully deposit and withdraw money FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-09-10 22:15:11 - [TEST_SUITE][FAILED] - Smoke Test Web: Test Cases/User can successfully deposit and withdraw money FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at User can successfully deposit and withdraw money.run(User can successfully deposit and withdraw money:75)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694358907938.run(TempTestSuite1694358907938.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Account Number : 1007 , Balance : 5000 , Currency : Dollar' and expected text 'Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar' of test object 'Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Test Web,Chrome 116.0.0.0,,,2023-09-10 22:00:54,2023-09-10 22:04:46,3m - 51.354s,FAILED
+,,,,,,,
+Test Cases/User can successfully login,Chrome 116.0.0.0,,,2023-09-10 22:00:55,2023-09-10 22:01:13,17.780s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-10 22:00:55,2023-09-10 22:01:05,9.539s,PASSED
+"navigateToUrl(""https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"")",Chrome 116.0.0.0,,,2023-09-10 22:01:05,2023-09-10 22:01:07,2.187s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Customer Login""))",Chrome 116.0.0.0,,,2023-09-10 22:01:07,2023-09-10 22:01:08,1.361s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b""), ""3"", true)",Chrome 116.0.0.0,,,2023-09-10 22:01:08,2023-09-10 22:01:10,1.987s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Login""))",Chrome 116.0.0.0,,,2023-09-10 22:01:10,2023-09-10 22:01:11,0.490s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/strong_1007""), ""1007"")",Chrome 116.0.0.0,,,2023-09-10 22:01:11,2023-09-10 22:01:12,0.864s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/span_Ron Weasly""))",Chrome 116.0.0.0,,,2023-09-10 22:01:12,2023-09-10 22:01:12,0.426s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/span_Ron Weasly""), ""Ron Weasly"")",Chrome 116.0.0.0,,,2023-09-10 22:01:12,2023-09-10 22:01:12,0.374s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-10 22:01:12,2023-09-10 22:01:13,0.096s,PASSED
+,,,,,,,
+Test Cases/User can successfully deposit and withdraw money,Chrome 116.0.0.0,,,2023-09-10 22:02:57,2023-09-10 22:04:01,1m - 3.945s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-10 22:02:57,2023-09-10 22:03:02,4.774s,PASSED
+"navigateToUrl(""https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"")",Chrome 116.0.0.0,,,2023-09-10 22:03:02,2023-09-10 22:03:04,1.834s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/strong_XYZ Bank""), ""XYZ Bank"")",Chrome 116.0.0.0,,,2023-09-10 22:03:04,2023-09-10 22:03:07,2.771s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Customer Login""))",Chrome 116.0.0.0,,,2023-09-10 22:03:07,2023-09-10 22:03:09,1.940s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b""), ""3"", true)",Chrome 116.0.0.0,,,2023-09-10 22:03:09,2023-09-10 22:03:12,3.611s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_XYZ Bank/button_Login""), 0)",Chrome 116.0.0.0,,,2023-09-10 22:03:12,2023-09-10 22:03:13,0.323s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Login""))",Chrome 116.0.0.0,,,2023-09-10 22:03:13,2023-09-10 22:03:13,0.521s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/strong_0""), ""0"")",Chrome 116.0.0.0,,,2023-09-10 22:03:13,2023-09-10 22:03:14,0.868s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Deposit""))",Chrome 116.0.0.0,,,2023-09-10 22:03:14,2023-09-10 22:03:14,0.370s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Deposit""))",Chrome 116.0.0.0,,,2023-09-10 22:03:14,2023-09-10 22:03:16,1.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_XYZ Bank/label_Amount to be Deposited""), 0)",Chrome 116.0.0.0,,,2023-09-10 22:03:16,2023-09-10 22:03:18,1.825s,PASSED
+"setText(findTestObject(""Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd""), ""25000"")",Chrome 116.0.0.0,,,2023-09-10 22:03:18,2023-09-10 22:03:22,4.481s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Deposit_1""))",Chrome 116.0.0.0,,,2023-09-10 22:03:22,2023-09-10 22:03:24,1.756s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_XYZ Bank/span_Deposit Successful""), 0)",Chrome 116.0.0.0,,,2023-09-10 22:03:24,2023-09-10 22:03:26,1.806s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Transactions""))",Chrome 116.0.0.0,,,2023-09-10 22:03:26,2023-09-10 22:03:28,2.111s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/td_25000""), ""25000"")",Chrome 116.0.0.0,,,2023-09-10 22:03:28,2023-09-10 22:03:29,1.828s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/td_Credit""))",Chrome 116.0.0.0,,,2023-09-10 22:03:29,2023-09-10 22:03:32,2.247s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/td_Credit""), ""Credit"")",Chrome 116.0.0.0,,,2023-09-10 22:03:32,2023-09-10 22:03:34,1.857s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Back""))",Chrome 116.0.0.0,,,2023-09-10 22:03:34,2023-09-10 22:03:36,2.666s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Withdrawl""))",Chrome 116.0.0.0,,,2023-09-10 22:03:36,2023-09-10 22:03:41,4.415s,PASSED
+"setText(findTestObject(""Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd""), ""20000"")",Chrome 116.0.0.0,,,2023-09-10 22:03:41,2023-09-10 22:03:45,4.103s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Withdraw""))",Chrome 116.0.0.0,,,2023-09-10 22:03:45,2023-09-10 22:03:47,1.975s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_XYZ Bank/span_Transaction successful""), 0)",Chrome 116.0.0.0,,,2023-09-10 22:03:47,2023-09-10 22:03:49,1.762s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Transactions""))",Chrome 116.0.0.0,,,2023-09-10 22:03:49,2023-09-10 22:03:51,2.620s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/td_20000""), ""20000"")",Chrome 116.0.0.0,,,2023-09-10 22:03:51,2023-09-10 22:03:53,1.573s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/td_Debit""), ""Debit"")",Chrome 116.0.0.0,,,2023-09-10 22:03:53,2023-09-10 22:03:55,1.846s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Back""))",Chrome 116.0.0.0,,,2023-09-10 22:03:55,2023-09-10 22:03:57,2.624s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly""), ""Welcome Ron Weasly !!"")",Chrome 116.0.0.0,,,2023-09-10 22:03:57,2023-09-10 22:03:59,1.360s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/div_Account Number  1007 , Balance  5000 , _80e863""), ""Account Number : 1007 , 
+	Balance : 5000 , 
+	Currency : Dollar"")",Chrome 116.0.0.0,,,2023-09-10 22:03:59,2023-09-10 22:04:01,2.656s,FAILED
+,,,,,,,
+Test Cases/User failed to withdraw due to insufficient deposit,Chrome 116.0.0.0,,,2023-09-10 22:04:01,2023-09-10 22:04:46,44.481s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-10 22:04:02,2023-09-10 22:04:07,5.050s,PASSED
+"navigateToUrl(""https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"")",Chrome 116.0.0.0,,,2023-09-10 22:04:07,2023-09-10 22:04:09,2.833s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Customer Login""))",Chrome 116.0.0.0,,,2023-09-10 22:04:09,2023-09-10 22:04:11,1.249s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b""), ""3"", true)",Chrome 116.0.0.0,,,2023-09-10 22:04:11,2023-09-10 22:04:17,6.138s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Login""))",Chrome 116.0.0.0,,,2023-09-10 22:04:17,2023-09-10 22:04:19,1.924s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_XYZ Bank/strong_Welcome Ron Weasly""), 0)",Chrome 116.0.0.0,,,2023-09-10 22:04:19,2023-09-10 22:04:21,2.691s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_XYZ Bank/span_Ron Weasly""), 0)",Chrome 116.0.0.0,,,2023-09-10 22:04:21,2023-09-10 22:04:24,2.251s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/strong_0""), ""0"")",Chrome 116.0.0.0,,,2023-09-10 22:04:24,2023-09-10 22:04:26,1.853s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Deposit""))",Chrome 116.0.0.0,,,2023-09-10 22:04:26,2023-09-10 22:04:28,2.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd""), ""100"")",Chrome 116.0.0.0,,,2023-09-10 22:04:28,2023-09-10 22:04:32,4.204s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Deposit_1""))",Chrome 116.0.0.0,,,2023-09-10 22:04:32,2023-09-10 22:04:34,1.674s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/span_Deposit Successful""), ""Deposit Successful"")",Chrome 116.0.0.0,,,2023-09-10 22:04:34,2023-09-10 22:04:36,2.003s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Withdrawl""))",Chrome 116.0.0.0,,,2023-09-10 22:04:36,2023-09-10 22:04:38,2.027s,PASSED
+"setText(findTestObject(""Object Repository/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd""), ""50000"")",Chrome 116.0.0.0,,,2023-09-10 22:04:38,2023-09-10 22:04:42,4.530s,PASSED
+"click(findTestObject(""Object Repository/Page_XYZ Bank/button_Withdraw""))",Chrome 116.0.0.0,,,2023-09-10 22:04:42,2023-09-10 22:04:44,1.737s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_XYZ Bank/span_Transaction Failed. You can not withdr_4b9636""), ""Transaction Failed. You can not withdraw amount more than the balance."")",Chrome 116.0.0.0,,,2023-09-10 22:04:44,2023-09-10 22:04:46,1.682s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-10 22:04:46,2023-09-10 22:04:46,0.089s,PASSED
