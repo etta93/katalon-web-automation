@@ -1,9 +1,9 @@
 # katalon-web-automation
 
 What I used for katalon automation sript
-Katalon
-Chrome
+- Katalon
+- Chrome
 
 How to run
-Open project in Katalon Studio
-Run Test Suite Smoke Test Web
+- Open project in Katalon Studio
+- Run Test Suite Smoke Test Web
